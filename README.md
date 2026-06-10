@@ -30,7 +30,7 @@ name: Arpanjeet Singh
 location: San Francisco Bay Area
 education: B.S. Computer Science — San Jose State University (Junior)
 currently_building: Multi-agent systems & whatever the AI race demands next
-philosophy: "Only a slave quantifies his existence with productivity."
+philosophy: "Only a slave quantifies his existence."
 status: Catching up — and trying to outrun the AI race before it laps me again.
 ```
 
