@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:1a1b27,50:bd93f9,75:ff79c6,100:50fa7b&height=240&section=header&text=Arpanjeet%20Singh&fontSize=74&fontColor=f8f8f2&fontAlignY=34&desc=%E2%80%9COnly%20a%20slave%20quantifies%20his%20existence%20with%20productivity.%E2%80%9D&descSize=16&descAlignY=56&descColor=8be9fd&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:1a1b27,50:bd93f9,75:ff79c6,100:50fa7b&height=240&section=header&text=Arpanjeet%20Singh&fontSize=74&fontColor=f8f8f2&fontAlignY=34&desc=%E2%80%9COnly%20a%20slave%20quantifies%20its%20existence.%E2%80%9D&descSize=16&descAlignY=56&descColor=8be9fd&animation=fadeIn" width="100%"/>
 
 <!-- ANIMATED TYPING -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=BD93F9&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=170&lines=Catching+up.+Outrunning.+Iterating+again.;AI+Engineering+%C2%B7+Multi-Agent+%C2%B7+Low-Level+Systems;SJSU+CS+Junior+%E2%80%94+SF+Bay+Area;Everything+goes+stale.+So+do+I.+So+I+rebuild." alt="Typing SVG" /></a>
@@ -30,7 +30,7 @@ name: Arpanjeet Singh
 location: San Francisco Bay Area
 education: B.S. Computer Science — San Jose State University (Junior)
 currently_building: Multi-agent systems & whatever the AI race demands next
-philosophy: "Only a slave quantifies his existence."
+philosophy: "Only a slave quantifies its existence."
 status: Catching up — and trying to outrun the AI race before it laps me again.
 ```
 
