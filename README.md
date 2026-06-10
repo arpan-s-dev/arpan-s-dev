@@ -105,19 +105,6 @@ export default arpanjeet;
 
 <br>
 
-<!-- CONTRIBUTION GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Arpanjeetsingh&bg_color=0d1117&color=bd93f9&line=ff79c6&point=50fa7b&area=true&area_color=bd93f9&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" width="98%"/>
-
-<br><br>
-
-<!-- LEETCODE STYLE CONTRIBUTION CALENDAR -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://ghchart.rshah.org/bd93f9/Arpanjeetsingh"/>
-  <img src="https://ghchart.rshah.org/bd93f9/Arpanjeetsingh" alt="Arpanjeet's Contribution Calendar" width="98%"/>
-</picture>
-
-<br><br>
-
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arpanjeetsingh&layout=donut-vertical&theme=dracula&hide_border=true&bg_color=0d1117&title_color=bd93f9&text_color=f8f8f2&langs_count=8&cache_seconds=86400&v=3" alt="Top Languages" width="320"/>
 
 <br>
