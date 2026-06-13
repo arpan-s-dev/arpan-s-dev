@@ -178,44 +178,46 @@ export default arpanjeet;
 
 ## Featured Projects
 
-<!-- PROJECT 1: Portfolio -->
+<!-- PROJECT 1: Freight-Doc-Matcher (v0.2) -->
 <table>
 <tr>
 <td>
 
-<h3><a href="https://github.com/arpan-s-dev/my_portfolio">my_portfolio</a> — Personal Portfolio Site</h3>
+<h3><a href="https://github.com/arpan-s-dev/Freight-Doc-Matcher">Freight-Doc-Matcher</a> — Fine-Tuned Document Linkage + BI <sup><code>v0.2</code></sup></h3>
 
 <p>
-<img src="https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mermaid-FF3670?style=flat-square&logo=mermaid&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/DistilBERT-FFB400?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/sentence--transformers-2C3E50?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black"/>
+<img src="https://img.shields.io/badge/Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
 </p>
 
-> **Living portfolio + architecture sketchbook — every shipped project gets a tabbed deep-dive with system-design Mermaid UMLs, tech-stack rationale, implementation notes, and outcomes.**
+> **Reframes the v0.1 freight-doc CLI as a portfolio-grade data-science project: a fine-tuned transformer matches Bills of Lading to Rate Confirmations end-to-end, with a SQL warehouse on top.**
 
-- **Themeable dual look** — Arthur (warm serif) and Atie (mono-cyberpunk) palettes wired through CSS variables, including Mermaid diagram theming, so every flowchart, classDiagram, and sequenceDiagram repaints on theme switch
-- **Architecture cards with live UMLs** — each project renders Mermaid diagrams directly from source strings (no static images), including a stackable `systemDesignDiagrams` API for projects with multiple views (pipeline + UML class + sequence)
-- **Built on Next.js 14 App Router** — RSC for static project content, client components for interactive filters, tab state, and mermaid render; shadcn/ui primitives with no design-system lock-in
+- **Deep entity matching (Ditto, VLDB 2020)** — retrieve-then-rerank: a `all-MiniLM-L6-v2` bi-encoder blocks candidates (cuts 160k comparisons → ~7k on a 400-doc batch), then a fine-tuned `distilbert-base-uncased` cross-encoder reads BOL + Rate Con jointly and outputs match probability. F1 **0.65 → 0.87** on the recurring-lane / OCR-noise benchmark vs. the v0.1 heuristic
+- **Hybrid blocker + benchmark baselines** — structural keys (shared ZIP / PO) ∪ semantic top-k fixes cases the bi-encoder alone missed; v0.1 100-pt heuristic and a Fellegi–Sunter probabilistic linkage model are retained as interpretable baselines for the three-way benchmark script
+- **DuckDB analytics warehouse → Parquet/CSV** — matched output loads into a `loads` table with four analytical SQL views (`lane_summary`, `broker_scorecard`, `match_quality`, `exception_queue`) and exports to Parquet natively (or CSV) for Tableau / Power BI dashboards
 
 <div align="center">
-<a href="https://github.com/arpan-s-dev/my_portfolio"><img src="https://img.shields.io/badge/View_Repository-my__portfolio-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" alt="View Repo"/></a>
-<img src="https://img.shields.io/github/stars/arpan-s-dev/my_portfolio?style=for-the-badge&logo=github&label=STARS&color=ff79c6&labelColor=1a1b27" alt="Stars"/>
+<a href="https://github.com/arpan-s-dev/Freight-Doc-Matcher"><img src="https://img.shields.io/badge/View_Repository-Freight--Doc--Matcher-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" alt="View Repo"/></a>
+<img src="https://img.shields.io/github/stars/arpan-s-dev/Freight-Doc-Matcher?style=for-the-badge&logo=github&label=STARS&color=ff79c6&labelColor=1a1b27" alt="Stars"/>
 </div>
 
 </td>
 </tr>
 </table>
 
-<!-- PROJECT 2: POD_RC_AUTO_OCR -->
+<!-- PROJECT 2: POD_RC_AUTO_OCR (v0.1 baseline) -->
 <table>
 <tr>
 <td>
 
-<h3><a href="https://github.com/Arpanjeetsingh/POD_RC_AUTO_OCR">POD_RC_AUTO_OCR</a> — Freight Doc Matcher</h3>
+<h3><a href="https://github.com/arpan-s-dev/POD_RC_AUTO_OCR">POD_RC_AUTO_OCR</a> — Freight Doc Matcher <sup><code>v0.1 baseline</code></sup></h3>
 
 <p>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
@@ -226,15 +228,15 @@ export default arpanjeet;
 <img src="https://img.shields.io/badge/openpyxl-217346?style=flat-square&logo=microsoftexcel&logoColor=white"/>
 </p>
 
-> **Automates matching and organizing Bill of Lading and Rate Confirmation PDFs from freight brokers into clean folders and a single Excel spreadsheet.**
+> **The v0.1 baseline that Freight-Doc-Matcher v0.2 was built on top of. Automates matching and organizing Bill of Lading and Rate Confirmation PDFs from freight brokers into clean folders and a single Excel spreadsheet.**
 
 - **Multi-format PDF ingestion** — handles native text PDFs, scanned docs, and phone-camera photos via an intelligent source classifier that routes each file to the right OCR path
 - **Broker-agnostic field extraction** — regex pipelines + Claude Haiku vision fallback identify load numbers, PO#s, dates, and locations across **13+ freight broker formats**
 - **Confidence-scored matching** — pairs BOLs to Rate Confirmations on a 0–100 additive scale (exact load number = auto-match, 70+ = confident), producing an Excel report with hyperlinks back to source files
 
 <div align="center">
-<a href="https://github.com/Arpanjeetsingh/POD_RC_AUTO_OCR"><img src="https://img.shields.io/badge/View_Repository-POD__RC__AUTO__OCR-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" alt="View Repo"/></a>
-<img src="https://img.shields.io/github/stars/Arpanjeetsingh/POD_RC_AUTO_OCR?style=for-the-badge&logo=github&label=STARS&color=ff79c6&labelColor=1a1b27" alt="Stars"/>
+<a href="https://github.com/arpan-s-dev/POD_RC_AUTO_OCR"><img src="https://img.shields.io/badge/View_Repository-POD__RC__AUTO__OCR-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" alt="View Repo"/></a>
+<img src="https://img.shields.io/github/stars/arpan-s-dev/POD_RC_AUTO_OCR?style=for-the-badge&logo=github&label=STARS&color=ff79c6&labelColor=1a1b27" alt="Stars"/>
 </div>
 
 </td>
