@@ -178,7 +178,39 @@ export default arpanjeet;
 
 ## Featured Projects
 
-<!-- PROJECT 1: POD_RC_AUTO_OCR -->
+<!-- PROJECT 1: Portfolio -->
+<table>
+<tr>
+<td>
+
+<h3><a href="https://github.com/arpan-s-dev/my_portfolio">my_portfolio</a> — Personal Portfolio Site</h3>
+
+<p>
+<img src="https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
+<img src="https://img.shields.io/badge/Mermaid-FF3670?style=flat-square&logo=mermaid&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+</p>
+
+> **Living portfolio + architecture sketchbook — every shipped project gets a tabbed deep-dive with system-design Mermaid UMLs, tech-stack rationale, implementation notes, and outcomes.**
+
+- **Themeable dual look** — Arthur (warm serif) and Atie (mono-cyberpunk) palettes wired through CSS variables, including Mermaid diagram theming, so every flowchart, classDiagram, and sequenceDiagram repaints on theme switch
+- **Architecture cards with live UMLs** — each project renders Mermaid diagrams directly from source strings (no static images), including a stackable `systemDesignDiagrams` API for projects with multiple views (pipeline + UML class + sequence)
+- **Built on Next.js 14 App Router** — RSC for static project content, client components for interactive filters, tab state, and mermaid render; shadcn/ui primitives with no design-system lock-in
+
+<div align="center">
+<a href="https://github.com/arpan-s-dev/my_portfolio"><img src="https://img.shields.io/badge/View_Repository-my__portfolio-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" alt="View Repo"/></a>
+<img src="https://img.shields.io/github/stars/arpan-s-dev/my_portfolio?style=for-the-badge&logo=github&label=STARS&color=ff79c6&labelColor=1a1b27" alt="Stars"/>
+</div>
+
+</td>
+</tr>
+</table>
+
+<!-- PROJECT 2: POD_RC_AUTO_OCR -->
 <table>
 <tr>
 <td>
@@ -209,7 +241,7 @@ export default arpanjeet;
 </tr>
 </table>
 
-<!-- PROJECT 2: UniLoadBoard -->
+<!-- PROJECT 3: UniLoadBoard -->
 <table>
 <tr>
 <td>
