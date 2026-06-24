@@ -127,7 +127,6 @@
   <g transform="translate(40, 68)">
     <!-- Name -->
     <text x="0" y="28" class="mono name">Arpanjeet Singh</text>
-    <text x="0" y="52" class="mono tagline">"Only a slave quantifies his existence with productivity."</text>
 
     <!-- Divider -->
     <line x1="0" y1="68" x2="460" y2="68" stroke="#30363d" stroke-opacity="0.4"/>
@@ -138,7 +137,7 @@
       <text x="100" y="0" class="mono v">SJSU — B.S. Computer Science (Junior)</text>
 
       <text x="0" y="26" class="mono k">→ stack</text>
-      <text x="100" y="26" class="mono v">Python • Java • TypeScript • Go</text>
+      <text x="100" y="26" class="mono v">Python • Java • TypeScript</text>
 
       <text x="0" y="52" class="mono k">→ focus</text>
       <text x="100" y="52" class="mono v">AI Engineering • Multi-Agent • Low-Level</text>
@@ -277,27 +276,23 @@
     <!-- Progress bar - ANIMATED FILL -->
     <rect x="20" y="410" width="480" height="8" rx="4" fill="#21222c"/>
     <rect x="20" y="410" width="0" height="8" rx="4" fill="#bd93f9">
-      <animate attributeName="width" from="0" to="180" dur="1.4s" fill="freeze"/>
+      <animate attributeName="width" from="0" to="200" dur="1.4s" fill="freeze"/>
     </rect>
-    <rect x="200" y="410" width="0" height="8" rx="4" fill="#50fa7b">
-      <animate attributeName="width" from="0" to="110" dur="1.4s" begin="0.2s" fill="freeze"/>
+    <rect x="220" y="410" width="0" height="8" rx="4" fill="#50fa7b">
+      <animate attributeName="width" from="0" to="130" dur="1.4s" begin="0.2s" fill="freeze"/>
     </rect>
-    <rect x="310" y="410" width="0" height="8" rx="4" fill="#ff79c6">
-      <animate attributeName="width" from="0" to="95" dur="1.4s" begin="0.4s" fill="freeze"/>
+    <rect x="350" y="410" width="0" height="8" rx="4" fill="#ff79c6">
+      <animate attributeName="width" from="0" to="100" dur="1.4s" begin="0.4s" fill="freeze"/>
     </rect>
-    <rect x="405" y="410" width="0" height="8" rx="4" fill="#8be9fd">
-      <animate attributeName="width" from="0" to="55" dur="1.4s" begin="0.6s" fill="freeze"/>
-    </rect>
-    <rect x="460" y="410" width="0" height="8" rx="4" fill="#f1fa8c">
-      <animate attributeName="width" from="0" to="40" dur="1.4s" begin="0.8s" fill="freeze"/>
+    <rect x="450" y="410" width="0" height="8" rx="4" fill="#f1fa8c">
+      <animate attributeName="width" from="0" to="50" dur="1.4s" begin="0.6s" fill="freeze"/>
     </rect>
 
     <!-- Labels -->
-    <text x="80" y="440" class="mono" font-size="10" fill="#bd93f9" text-anchor="middle">Python</text>
-    <text x="235" y="440" class="mono" font-size="10" fill="#50fa7b" text-anchor="middle">Java</text>
-    <text x="335" y="440" class="mono" font-size="10" fill="#ff79c6" text-anchor="middle">TypeScript</text>
-    <text x="420" y="440" class="mono" font-size="10" fill="#8be9fd" text-anchor="middle">Go</text>
-    <text x="478" y="440" class="mono" font-size="10" fill="#f1fa8c" text-anchor="middle">SQL</text>
+    <text x="120" y="440" class="mono" font-size="10" fill="#bd93f9" text-anchor="middle">Python</text>
+    <text x="285" y="440" class="mono" font-size="10" fill="#50fa7b" text-anchor="middle">Java</text>
+    <text x="400" y="440" class="mono" font-size="10" fill="#ff79c6" text-anchor="middle">TypeScript</text>
+    <text x="475" y="440" class="mono" font-size="10" fill="#f1fa8c" text-anchor="middle">SQL</text>
   </g>
 
   <!-- Footer -->

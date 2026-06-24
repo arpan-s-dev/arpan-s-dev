@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:1a1b27,50:bd93f9,75:ff79c6,100:50fa7b&height=240&section=header&text=Arpanjeet%20Singh&fontSize=74&fontColor=f8f8f2&fontAlignY=34&desc=%E2%80%9COnly%20a%20slave%20quantifies%20its%20existence.%E2%80%9D&descSize=16&descAlignY=56&descColor=8be9fd&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:1a1b27,50:bd93f9,75:ff79c6,100:50fa7b&height=240&section=header&text=Arpanjeet%20Singh&fontSize=74&fontColor=f8f8f2&fontAlignY=50&animation=fadeIn" width="100%"/>
 
 <!-- ANIMATED TYPING -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=BD93F9&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=170&lines=Catching+up.+Outrunning.+Iterating+again.;AI+Engineering+%C2%B7+Multi-Agent+%C2%B7+Low-Level+Systems;SJSU+CS+Junior+%E2%80%94+SF+Bay+Area;Everything+goes+stale.+So+do+I.+So+I+rebuild." alt="Typing SVG" /></a>
@@ -30,7 +30,6 @@ name: Arpanjeet Singh
 location: San Francisco Bay Area
 education: B.S. Computer Science — San Jose State University (Junior)
 currently_building: Multi-agent systems & whatever the AI race demands next
-philosophy: "Only a slave quantifies its existence."
 status: Catching up — and trying to outrun the AI race before it laps me again.
 ```
 
@@ -38,7 +37,7 @@ status: Catching up — and trying to outrun the AI race before it laps me again
 // arpanjeet.config.ts
 const arpanjeet = {
   focus:     ["AI Engineering", "Multi-Agent Systems", "Low-Level Curiosity"],
-  languages: ["Python", "Java", "TypeScript", "Go"],
+  languages: ["Python", "Java", "TypeScript"],
   daily:     ["React Native", "Jira", "LLMs", "Agents", "Whatever's not deprecated yet"],
   mood:      "Everything goes stale. So do I. So I rebuild.",
 } as const;
@@ -111,7 +110,7 @@ export default arpanjeet;
 
 <!-- Fallback language row — always visible even if Top Languages above fails to load -->
 <p>
-<img src="https://skillicons.dev/icons?i=python,java,typescript,go,javascript,cpp,c,bash&theme=dark" alt="Languages"/>
+<img src="https://skillicons.dev/icons?i=python,java,typescript,javascript,bash&theme=dark" alt="Languages"/>
 </p>
 
 </div>
@@ -124,7 +123,7 @@ export default arpanjeet;
 
 <h4>Languages</h4>
 <p>
-<img src="https://skillicons.dev/icons?i=python,java,typescript,go,javascript,cpp&theme=dark" alt="Languages"/>
+<img src="https://skillicons.dev/icons?i=python,java,typescript,javascript&theme=dark" alt="Languages"/>
 <br>
 <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
 </p>
@@ -137,7 +136,7 @@ export default arpanjeet;
 <img src="https://img.shields.io/badge/RAG-ff79c6?style=for-the-badge&logoColor=white" alt="RAG"/>
 <img src="https://img.shields.io/badge/LLM_Engineering-50fa7b?style=for-the-badge&logoColor=white" alt="LLM Engineering"/>
 <br>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" alt="ML Frameworks"/>
+<img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" alt="ML Frameworks"/>
 <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
 </p>
 
@@ -153,7 +152,7 @@ export default arpanjeet;
 
 <h4>Low-Level & Systems</h4>
 <p>
-<img src="https://skillicons.dev/icons?i=cpp,linux&theme=dark" alt="Systems"/>
+<img src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Systems"/>
 <img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logoColor=white" alt="Assembly"/>
 </p>
 
@@ -163,13 +162,10 @@ export default arpanjeet;
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
 </p>
 
-<h4>Cloud & DevOps</h4>
+<h4>Workflow & Deployment</h4>
 <p>
-<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,githubactions,git&theme=dark" alt="Cloud & DevOps"/>
-<br>
 <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira"/>
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
-<img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI/CD"/>
 </p>
 
 </div>
@@ -293,17 +289,17 @@ export default arpanjeet;
 
 ---
 
-## Contribution Snake
+## Contribution Pac-Man
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/output/github-contribution-grid-snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/output/pacman-contribution-graph.svg">
+  <img alt="github contribution grid pacman animation" src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/output/pacman-contribution-graph.svg" width="100%">
 </picture>
 </div>
 
-> Snake animation requires a GitHub Action — see setup notes at the bottom of this file.
+> Pac-Man animation requires a GitHub Action — see setup notes at the bottom of this file.
 
 ---
 
@@ -334,33 +330,13 @@ export default arpanjeet;
     The repo name MUST match your username exactly. Create it (public),
     drop README.md + dashboard.svg at the root, commit, push.
 
- 2. CONTRIBUTION SNAKE
-    The snake SVGs at /output/... don't exist until you add a GitHub Action.
-    Create .github/workflows/snake.yml in the Arpanjeetsingh/Arpanjeetsingh
-    repo with this content:
-
-    name: Generate Snake
-    on:
-      schedule: [{ cron: "0 */24 * * *" }]
-      workflow_dispatch:
-      push: { branches: [main] }
-    jobs:
-      generate:
-        runs-on: ubuntu-latest
-        permissions: { contents: write }
-        steps:
-          - uses: Platane/snk/svg-only@v3
-            with:
-              github_user_name: Arpanjeetsingh
-              outputs: |
-                dist/github-contribution-grid-snake.svg
-                dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          - uses: crazy-max/ghaction-github-pages@v3
-            with:
-              target_branch: output
-              build_dir: dist
-            env:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+ 2. CONTRIBUTION PAC-MAN
+    The pacman SVGs at /output/... are generated by the workflow at
+    .github/workflows/pacman.yml. It runs on push to main, every 12 hours,
+    and on manual dispatch. The action writes
+    dist/pacman-contribution-graph.svg and
+    dist/pacman-contribution-graph-dark.svg, then pushes them to the
+    `output` branch.
 
  3. PROFILE VIEW COUNTER
     Auto-tracks once the README is live — no setup.
