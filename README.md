@@ -121,6 +121,12 @@ export default arpanjeet;
 
 <div align="center">
 
+<h4>Hackathon</h4>
+<p>
+<img src="https://img.shields.io/badge/Winner-Copilot--Powered%20Build%20Award-8957E5?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Winner — Copilot-Powered Build Award"/>
+<img src="https://img.shields.io/badge/Qualcomm%20%C3%97%20Meta-ExecuTorch%20Hackathon-3253DC?style=for-the-badge&logo=qualcomm&logoColor=white" alt="Qualcomm × Meta ExecuTorch Hackathon"/>
+</p>
+
 <h4>Languages</h4>
 <p>
 <img src="https://skillicons.dev/icons?i=python,java,typescript,javascript&theme=dark" alt="Languages"/>
@@ -173,6 +179,38 @@ export default arpanjeet;
 ---
 
 ## Featured Projects
+
+<!-- PROJECT 0: Lodestar — Hackathon Winner -->
+<table>
+<tr>
+<td>
+
+<h3><a href="https://github.com/arpan-s-dev/QCOM">Lodestar</a> — Offline On-Device AI Survival Copilot <sup><code>🏆 Hackathon Winner</code></sup></h3>
+
+<p>
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white"/>
+<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
+<img src="https://img.shields.io/badge/ExecuTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Qualcomm_QNN-3253DC?style=flat-square&logo=qualcomm&logoColor=white"/>
+<img src="https://img.shields.io/badge/Qwen3-615CED?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub_Copilot-8957E5?style=flat-square&logo=githubcopilot&logoColor=white"/>
+</p>
+
+> **🏆 Winner — Copilot-Powered Build Award at the Qualcomm × Meta ExecuTorch Hackathon. An offline AI survival assistant that runs entirely on the phone — first-aid triage, true-north compass, and nearest-hospital guidance with no network and no `INTERNET` permission.**
+
+- **On-device LLM on the Snapdragon NPU** — Qwen3 generates first-aid guidance through ExecuTorch + QNN; a deterministic SafetyTree always computes injury severity first, so triage never depends on the cloud
+- **GPS-denied navigation** — a solar compass by day and a night-sky star plate-solve (`STAR_FIX`) derive true north with no signal; a spoof detector falls back to dead reckoning and warns the user
+- **Calm, fast UI built with GitHub Copilot** — a Jetpack Compose "SafeGuide" shell with voice/text triage, a wound-photo infection checklist, and offline nearest-hospital distance + bearing
+
+<div align="center">
+<a href="https://github.com/arpan-s-dev/QCOM"><img src="https://img.shields.io/badge/View_Repository-Lodestar-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" alt="View Repo"/></a>
+<img src="https://img.shields.io/github/stars/arpan-s-dev/QCOM?style=for-the-badge&logo=github&label=STARS&color=ff79c6&labelColor=1a1b27" alt="Stars"/>
+</div>
+
+</td>
+</tr>
+</table>
 
 <!-- PROJECT 1: Freight-Doc-Matcher (v0.2) -->
 <table>
