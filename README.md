@@ -121,11 +121,13 @@ export default arpanjeet;
 
 <div align="center">
 
-<h4>Hackathon</h4>
+<h4>Awards & Recognition</h4>
 <p>
 <img src="https://img.shields.io/badge/Winner-Copilot--Powered%20Build%20Award-8957E5?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Winner — Copilot-Powered Build Award"/>
 <img src="https://img.shields.io/badge/Qualcomm%20%C3%97%20Meta-ExecuTorch%20Hackathon-3253DC?style=for-the-badge&logo=qualcomm&logoColor=white" alt="Qualcomm × Meta ExecuTorch Hackathon"/>
+<img src="https://img.shields.io/badge/1st%20Place-Spartan%20Strategy%20Showcase-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="1st Place — LinkedIn Spartan Strategy Showcase (SJSU)"/>
 </p>
+<sub>First place · LinkedIn Campus Ambassador Program &amp; SJSU Career Center · Apr 2026</sub>
 
 <h4>Languages</h4>
 <p>
