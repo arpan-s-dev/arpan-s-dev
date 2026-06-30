@@ -1,0 +1,323 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 360" width="850" height="360" font-family="'Courier New', monospace">
+  <defs>
+    <radialGradient id="taBg" cx="50%" cy="0%" r="95%"><stop offset="0%" stop-color="#161b26"></stop><stop offset="100%" stop-color="#0d1117"></stop></radialGradient>
+  </defs>
+  <rect width="850" height="360" fill="url(#taBg)"></rect>
+  <text x="30" y="34" font-size="12" letter-spacing="4" fill="#8b94a3">TECH ARSENAL</text>
+  <line x1="156" y1="30" x2="820" y2="30" stroke="#2b313d" stroke-width="1"></line>
+  <g>
+    <polyline points="63.0,92 131.0,92 212.0,92 290.0,92" fill="none" stroke="#85B7EB" stroke-width="1" stroke-opacity="0.18"></polyline>
+    <circle r="2.6" fill="#85B7EB" opacity="0.9">
+      <animateMotion values="63.0,92;131.0,92;212.0,92;290.0,92;212.0,92;131.0,92;63.0,92" dur="6.6s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateMotion>
+    </circle>
+    <circle cx="63.0" cy="92" r="2" fill="#85B7EB" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.00s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="131.0" cy="92" r="2" fill="#85B7EB" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.18s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="212.0" cy="92" r="2" fill="#85B7EB" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.36s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="290.0" cy="92" r="2" fill="#85B7EB" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.54s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <polyline points="105.5,141 232.5,141 326.5,141 401.0,141 495.5,141 613.0,141 720.5,141" fill="none" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.18"></polyline>
+    <circle r="2.6" fill="#bd93f9" opacity="0.9">
+      <animateMotion values="105.5,141;232.5,141;326.5,141;401.0,141;495.5,141;613.0,141;720.5,141;613.0,141;495.5,141;401.0,141;326.5,141;232.5,141;105.5,141" dur="13.2s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateMotion>
+    </circle>
+    <circle cx="105.5" cy="141" r="2" fill="#bd93f9" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="232.5" cy="141" r="2" fill="#bd93f9" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.43s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="326.5" cy="141" r="2" fill="#bd93f9" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.61s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="401.0" cy="141" r="2" fill="#bd93f9" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.79s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="495.5" cy="141" r="2" fill="#bd93f9" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.97s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="613.0" cy="141" r="2" fill="#bd93f9" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="1.15s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="720.5" cy="141" r="2" fill="#bd93f9" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="1.33s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <polyline points="82.5,190 170.0,190 241.0,190 322.0,190 396.5,190 471.0,190 555.5,190" fill="none" stroke="#ff79c6" stroke-width="1" stroke-opacity="0.18"></polyline>
+    <circle r="2.6" fill="#ff79c6" opacity="0.9">
+      <animateMotion values="82.5,190;170.0,190;241.0,190;322.0,190;396.5,190;471.0,190;555.5,190;471.0,190;396.5,190;322.0,190;241.0,190;170.0,190;82.5,190" dur="13.2s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateMotion>
+    </circle>
+    <circle cx="82.5" cy="190" r="2" fill="#ff79c6" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.50s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="170.0" cy="190" r="2" fill="#ff79c6" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.68s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="241.0" cy="190" r="2" fill="#ff79c6" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.86s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="322.0" cy="190" r="2" fill="#ff79c6" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="1.04s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="396.5" cy="190" r="2" fill="#ff79c6" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="1.22s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="471.0" cy="190" r="2" fill="#ff79c6" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="1.40s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="555.5" cy="190" r="2" fill="#ff79c6" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="1.58s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <polyline points="59.5,239 137.5,239" fill="none" stroke="#50fa7b" stroke-width="1" stroke-opacity="0.18"></polyline>
+    <circle r="2.6" fill="#50fa7b" opacity="0.9">
+      <animateMotion values="59.5,239;137.5,239;59.5,239" dur="2.2s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateMotion>
+    </circle>
+    <circle cx="59.5" cy="239" r="2" fill="#50fa7b" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.75s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="137.5" cy="239" r="2" fill="#50fa7b" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="0.93s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <polyline points="76.0,288 167.0,288 241.5,288 319.5,288" fill="none" stroke="#F0997B" stroke-width="1" stroke-opacity="0.18"></polyline>
+    <circle r="2.6" fill="#F0997B" opacity="0.9">
+      <animateMotion values="76.0,288;167.0,288;241.5,288;319.5,288;241.5,288;167.0,288;76.0,288" dur="6.6s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateMotion>
+    </circle>
+    <circle cx="76.0" cy="288" r="2" fill="#F0997B" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="1.00s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="167.0" cy="288" r="2" fill="#F0997B" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="1.18s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="241.5" cy="288" r="2" fill="#F0997B" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="1.36s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="319.5" cy="288" r="2" fill="#F0997B" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="1.54s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <polyline points="56.0,337 124.0,337" fill="none" stroke="#FAC775" stroke-width="1" stroke-opacity="0.18"></polyline>
+    <circle r="2.6" fill="#FAC775" opacity="0.9">
+      <animateMotion values="56.0,337;124.0,337;56.0,337" dur="2.2s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateMotion>
+    </circle>
+    <circle cx="56.0" cy="337" r="2" fill="#FAC775" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="1.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+    <circle cx="124.0" cy="337" r="2" fill="#FAC775" opacity="1">
+      <animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="2.4s" begin="1.43s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </circle>
+  </g>
+  <g>
+    <text x="30" y="62" font-size="12" letter-spacing="3" fill="#8b94a3">LANGUAGES</text>
+    <line x1="30" y1="71" x2="98.4" y2="71" stroke="#85B7EB" stroke-width="2" stroke-linecap="round" stroke-dasharray="68.4" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" values="0;68.4;0" keyTimes="0;0.5;1" dur="3.6s" begin="0.0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </line>
+    <text x="30" y="111" font-size="12" letter-spacing="3" fill="#8b94a3">AI / AGENTS / ML</text>
+    <line x1="30" y1="120" x2="151.6" y2="120" stroke="#bd93f9" stroke-width="2" stroke-linecap="round" stroke-dasharray="121.6" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" values="0;121.6;0" keyTimes="0;0.5;1" dur="3.6s" begin="0.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </line>
+    <text x="30" y="160" font-size="12" letter-spacing="3" fill="#8b94a3">MOBILE / FRONTEND / BACKEND</text>
+    <line x1="30" y1="169" x2="235.2" y2="169" stroke="#ff79c6" stroke-width="2" stroke-linecap="round" stroke-dasharray="205.2" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" values="0;205.2;0" keyTimes="0;0.5;1" dur="3.6s" begin="0.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </line>
+    <text x="30" y="209" font-size="12" letter-spacing="3" fill="#8b94a3">LOW-LEVEL / SYSTEMS</text>
+    <line x1="30" y1="218" x2="174.4" y2="218" stroke="#50fa7b" stroke-width="2" stroke-linecap="round" stroke-dasharray="144.4" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" values="0;144.4;0" keyTimes="0;0.5;1" dur="3.6s" begin="0.8999999999999999s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </line>
+    <text x="30" y="258" font-size="12" letter-spacing="3" fill="#8b94a3">DATA / INFRA</text>
+    <line x1="30" y1="267" x2="121.2" y2="267" stroke="#F0997B" stroke-width="2" stroke-linecap="round" stroke-dasharray="91.2" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" values="0;91.2;0" keyTimes="0;0.5;1" dur="3.6s" begin="1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </line>
+    <text x="30" y="307" font-size="12" letter-spacing="3" fill="#8b94a3">WORKFLOW</text>
+    <line x1="30" y1="316" x2="90.8" y2="316" stroke="#FAC775" stroke-width="2" stroke-linecap="round" stroke-dasharray="60.8" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" values="0;60.8;0" keyTimes="0;0.5;1" dur="3.6s" begin="1.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+    </line>
+  </g>
+  <g>
+    <g transform="translate(63.0,92)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.00s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-33.0" y="-11" width="66" height="22" rx="11" fill="#141a24" stroke="#85B7EB" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#85B7EB">Python</text>
+      </g>
+    </g>
+    <g transform="translate(131.0,92)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.08s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-26.0" y="-11" width="52" height="22" rx="11" fill="#141a24" stroke="#85B7EB" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#85B7EB">Java</text>
+      </g>
+    </g>
+    <g transform="translate(212.0,92)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.16s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-46.0" y="-11" width="92" height="22" rx="11" fill="#141a24" stroke="#85B7EB" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#85B7EB">TypeScript</text>
+      </g>
+    </g>
+    <g transform="translate(290.0,92)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.24s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-23.0" y="-11" width="46" height="22" rx="11" fill="#141a24" stroke="#85B7EB" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#85B7EB">SQL</text>
+      </g>
+    </g>
+    <g transform="translate(105.5,141)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.32s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-75.5" y="-11" width="151" height="22" rx="11" fill="#141a24" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#bd93f9">Multi-Agent Systems</text>
+      </g>
+    </g>
+    <g transform="translate(232.5,141)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.40s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-42.5" y="-11" width="85" height="22" rx="11" fill="#141a24" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#bd93f9">LangGraph</text>
+      </g>
+    </g>
+    <g transform="translate(326.5,141)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.48s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-42.5" y="-11" width="85" height="22" rx="11" fill="#141a24" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#bd93f9">LangChain</text>
+      </g>
+    </g>
+    <g transform="translate(401.0,141)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.56s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-23.0" y="-11" width="46" height="22" rx="11" fill="#141a24" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#bd93f9">RAG</text>
+      </g>
+    </g>
+    <g transform="translate(495.5,141)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.64s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-62.5" y="-11" width="125" height="22" rx="11" fill="#141a24" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#bd93f9">LLM Engineering</text>
+      </g>
+    </g>
+    <g transform="translate(613.0,141)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.72s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-46.0" y="-11" width="92" height="22" rx="11" fill="#141a24" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#bd93f9">TensorFlow</text>
+      </g>
+    </g>
+    <g transform="translate(720.5,141)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.80s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-52.5" y="-11" width="105" height="22" rx="11" fill="#141a24" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#bd93f9">scikit-learn</text>
+      </g>
+    </g>
+    <g transform="translate(82.5,190)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.88s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-52.5" y="-11" width="105" height="22" rx="11" fill="#141a24" stroke="#ff79c6" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#ff79c6">React Native</text>
+      </g>
+    </g>
+    <g transform="translate(170.0,190)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="0.96s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-26.0" y="-11" width="52" height="22" rx="11" fill="#141a24" stroke="#ff79c6" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#ff79c6">Expo</text>
+      </g>
+    </g>
+    <g transform="translate(241.0,190)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="1.04s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-36.0" y="-11" width="72" height="22" rx="11" fill="#141a24" stroke="#ff79c6" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#ff79c6">FastAPI</text>
+      </g>
+    </g>
+    <g transform="translate(322.0,190)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="1.12s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-36.0" y="-11" width="72" height="22" rx="11" fill="#141a24" stroke="#ff79c6" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#ff79c6">Node.js</text>
+      </g>
+    </g>
+    <g transform="translate(396.5,190)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="1.20s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-29.5" y="-11" width="59" height="22" rx="11" fill="#141a24" stroke="#ff79c6" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#ff79c6">React</text>
+      </g>
+    </g>
+    <g transform="translate(471.0,190)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="1.28s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-36.0" y="-11" width="72" height="22" rx="11" fill="#141a24" stroke="#ff79c6" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#ff79c6">Next.js</text>
+      </g>
+    </g>
+    <g transform="translate(555.5,190)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="1.36s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-39.5" y="-11" width="79" height="22" rx="11" fill="#141a24" stroke="#ff79c6" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#ff79c6">Tailwind</text>
+      </g>
+    </g>
+    <g transform="translate(59.5,239)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="1.44s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-29.5" y="-11" width="59" height="22" rx="11" fill="#141a24" stroke="#50fa7b" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#50fa7b">Linux</text>
+      </g>
+    </g>
+    <g transform="translate(137.5,239)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="1.52s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-39.5" y="-11" width="79" height="22" rx="11" fill="#141a24" stroke="#50fa7b" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#50fa7b">Assembly</text>
+      </g>
+    </g>
+    <g transform="translate(76.0,288)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="1.60s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-46.0" y="-11" width="92" height="22" rx="11" fill="#141a24" stroke="#F0997B" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#F0997B">PostgreSQL</text>
+      </g>
+    </g>
+    <g transform="translate(167.0,288)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="1.68s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-36.0" y="-11" width="72" height="22" rx="11" fill="#141a24" stroke="#F0997B" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#F0997B">MongoDB</text>
+      </g>
+    </g>
+    <g transform="translate(241.5,288)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="1.76s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-29.5" y="-11" width="59" height="22" rx="11" fill="#141a24" stroke="#F0997B" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#F0997B">Redis</text>
+      </g>
+    </g>
+    <g transform="translate(319.5,288)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="1.84s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-39.5" y="-11" width="79" height="22" rx="11" fill="#141a24" stroke="#F0997B" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#F0997B">Supabase</text>
+      </g>
+    </g>
+    <g transform="translate(56.0,337)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="1.92s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-26.0" y="-11" width="52" height="22" rx="11" fill="#141a24" stroke="#FAC775" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#FAC775">Jira</text>
+      </g>
+    </g>
+    <g transform="translate(124.0,337)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" keyTimes="0;0.5;1" dur="3.2s" begin="2.00s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform>
+        <rect x="-33.0" y="-11" width="66" height="22" rx="11" fill="#141a24" stroke="#FAC775" stroke-width="1" stroke-opacity="0.5"></rect>
+        <text x="0" y="4" text-anchor="middle" font-size="11" font-weight="600" fill="#FAC775">Vercel</text>
+      </g>
+    </g>
+  </g>
+  <line x1="0" y1="359" x2="850" y2="359" stroke="#2b313d" stroke-width="1"></line>
+</svg>

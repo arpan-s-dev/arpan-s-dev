@@ -1,10 +1,7 @@
 <div align="center">
 
-<!-- HEADER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:1a1b27,50:bd93f9,75:ff79c6,100:50fa7b&height=240&section=header&text=Arpanjeet%20Singh&fontSize=74&fontColor=f8f8f2&fontAlignY=50&animation=fadeIn" width="100%"/>
-
-<!-- ANIMATED TYPING -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=BD93F9&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=170&lines=Catching+up.+Outrunning.+Iterating+again.;AI+Engineering+%C2%B7+Multi-Agent+%C2%B7+Low-Level+Systems;SJSU+CS+Junior+%E2%80%94+SF+Bay+Area;Everything+goes+stale.+So+do+I.+So+I+rebuild." alt="Typing SVG" /></a>
+<!-- ANIMATED HERO BANNER (readme-banners/hero.svg) -->
+<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/hero.svg" width="100%" alt="Arpanjeet Singh — AI Engineering · Multi-Agent · Low-Level Systems"/>
 
 <!-- BADGES ROW -->
 <p>
@@ -14,10 +11,16 @@
 <a href="mailto:Arpan.sdev@gmail.com"><img src="https://img.shields.io/badge/Email-ff79c6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
-<br>
+</div>
 
-<!-- CUSTOM DASHBOARD SVG -->
-<img src="dashboard.svg" alt="Arpanjeet's Dev Dashboard" width="100%"/>
+---
+
+## Hackathon Wins
+
+<div align="center">
+
+<!-- ANIMATED HACKATHON BANNER (readme-banners/hackathon.svg) -->
+<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/hackathon.svg" width="100%" alt="Hackathon wins — Qualcomm × Meta ExecuTorch winner, SJSU LinkedIn Spartan 1st place"/>
 
 </div>
 
@@ -25,25 +28,12 @@
 
 ## `> whoami`
 
-```yaml
-name: Arpanjeet Singh
-location: San Francisco Bay Area
-education: B.S. Computer Science — San Jose State University (Junior)
-currently_building: Multi-agent systems & whatever the AI race demands next
-status: Catching up — and trying to outrun the AI race before it laps me again.
-```
+<div align="center">
 
-```ts
-// arpanjeet.config.ts
-const arpanjeet = {
-  focus:     ["AI Engineering", "Multi-Agent Systems", "Low-Level Curiosity"],
-  languages: ["Python", "Java", "TypeScript"],
-  daily:     ["React Native", "Jira", "LLMs", "Agents", "Whatever's not deprecated yet"],
-  mood:      "Everything goes stale. So do I. So I rebuild.",
-} as const;
+<!-- ANIMATED WHOAMI TERMINAL (readme-banners/whoami.svg) -->
+<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/whoami.svg" width="100%" alt="whoami — Arpanjeet Singh identity, arpanjeet.config.ts, and gh stats"/>
 
-export default arpanjeet;
-```
+</div>
 
 <div align="center">
 
@@ -121,6 +111,11 @@ export default arpanjeet;
 
 <div align="center">
 
+<!-- ANIMATED TECH ARSENAL BANNER (readme-banners/tech-arsenal.svg) -->
+<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/tech-arsenal.svg" width="100%" alt="Tech arsenal"/>
+
+<br><br>
+
 <h4>Awards & Recognition</h4>
 <p>
 <img src="https://img.shields.io/badge/Winner-Copilot--Powered%20Build%20Award-8957E5?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Winner — Copilot-Powered Build Award"/>
@@ -181,6 +176,15 @@ export default arpanjeet;
 ---
 
 ## Featured Projects
+
+<div align="center">
+
+<!-- ANIMATED PROJECTS BANNER (readme-banners/projects.svg) -->
+<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/projects.svg" width="100%" alt="Featured projects — Lodestar, Freight-Doc-Matcher, POD_RC_AUTO_OCR, UniLoadBoard"/>
+
+</div>
+
+<br>
 
 <!-- PROJECT 0: Lodestar — Hackathon Winner -->
 <table>
@@ -345,8 +349,6 @@ export default arpanjeet;
 
 <div align="center">
 
-<h3>The work isn't the proof. The doing is.</h3>
-
 <p>
 <a href="https://github.com/Arpanjeetsingh"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/arpanjeet-s-96895226b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -356,7 +358,8 @@ export default arpanjeet;
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:1a1b27,50:bd93f9,75:ff79c6,100:50fa7b&height=120&section=footer&animation=twinkling" width="100%"/>
+<!-- ANIMATED FOOTER BANNER (readme-banners/footer.svg) -->
+<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/footer.svg" width="100%" alt=""/>
 
 </div>
 

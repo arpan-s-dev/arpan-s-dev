@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 850 180" width="850" height="180" font-family="&#39;Courier New&#39;, monospace">
+  <defs>
+    <radialGradient id="hkBg" cx="50%" cy="0%" r="95%">
+      <stop offset="0%" stop-color="#161b26"></stop>
+      <stop offset="100%" stop-color="#0d1117"></stop>
+    </radialGradient>
+    <linearGradient id="goldFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FAC775"></stop>
+      <stop offset="1" stop-color="#F0997B"></stop>
+    </linearGradient>
+    <linearGradient id="fireGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff6a1f"></stop>
+      <stop offset="0.45" stop-color="#ff9a22"></stop>
+      <stop offset="0.8" stop-color="#ffc23a"></stop>
+      <stop offset="1" stop-color="#ffe27a"></stop>
+    </linearGradient>
+    <filter id="glowBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9"></feGaussianBlur>
+    </filter>
+    <filter id="fireBlur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="1.4"></feGaussianBlur>
+    </filter>
+    <path id="flame" d="M -8 0 C -10 -15 -6 -28 0 -40 C 6 -28 10 -15 8 0 C 4 4 -4 4 -8 0 Z" fill="url(#fireGrad)"></path>
+
+    <g id="trophy">
+      <path d="M11 4 H29 V6 C33 6 36 7 36 12 C36 18 31 20.5 28 20.8 C27 25 23.5 27.5 22 28 V32 H27 V35.5 H13 V32 H18 V28 C16.5 27.5 13 25 12 20.8 C9 20.5 4 18 4 12 C4 7 7 6 11 6 Z M11 9 C9 9 7 9.5 7 12 C7 15.5 9.5 17.4 11.2 17.9 C11 15.5 11 12 11 9 Z M29 9 C29 12 29 15.5 28.8 17.9 C30.5 17.4 33 15.5 33 12 C33 9.5 31 9 29 9 Z"></path>
+    </g>
+  </defs>
+
+  <rect width="850" height="180" fill="url(#hkBg)"></rect>
+
+  <text x="30" y="26" font-size="12" letter-spacing="4" fill="#8b94a3">HACKATHON WINS</text>
+  <line x1="172" y1="22" x2="820" y2="22" stroke="#2b313d" stroke-width="1"></line>
+
+  <g transform="translate(30,38)" opacity="1">
+    <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"></animate>
+    <animateTransform attributeName="transform" type="translate" values="30 56;30 38" dur="0.7s" begin="0s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"></animateTransform>
+    <g>
+      <rect x="-8" y="6" width="266" height="124" rx="18" fill="#ff6a1f" filter="url(#glowBlur)" opacity="0.18">
+        <animate attributeName="opacity" values="0.18;0.42;0.24;0.46;0.2;0.4;0.18" keyTimes="0;0.18;0.34;0.52;0.7;0.86;1" dur="1.4s" begin="0.7s" repeatCount="indefinite"></animate>
+      </rect>
+
+      <g filter="url(#fireBlur)">
+        <g transform="translate(18,22) scale(0.7)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="0.9s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="0.9s" begin="0s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(48,20) scale(1.0)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="1.05s" begin="0.15s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="1.05s" begin="0.15s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(80,23) scale(0.82)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="0.8s" begin="0.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="0.8s" begin="0.3s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(112,19) scale(1.08)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="1.15s" begin="0.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="1.15s" begin="0.1s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(144,22) scale(0.88)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="0.95s" begin="0.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="0.95s" begin="0.4s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(176,20) scale(1.0)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="0.85s" begin="0.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="0.85s" begin="0.2s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(208,23) scale(0.78)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="1.0s" begin="0.35s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="1.0s" begin="0.35s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(234,21) scale(0.92)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="0.9s" begin="0.05s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="0.9s" begin="0.05s" repeatCount="indefinite"></animate></use></g></g>
+
+        <g transform="translate(2,58) rotate(-32) scale(0.7)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="0.95s" begin="0.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="0.95s" begin="0.2s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(0,86) rotate(-32) scale(0.62)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="0.85s" begin="0.45s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="0.85s" begin="0.45s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(3,108) rotate(-30) scale(0.66)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="1.0s" begin="0.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="1.0s" begin="0.1s" repeatCount="indefinite"></animate></use></g></g>
+
+        <g transform="translate(248,58) rotate(32) scale(0.7)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="0.9s" begin="0.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="0.9s" begin="0.3s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(250,86) rotate(32) scale(0.62)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="1.0s" begin="0.15s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="1.0s" begin="0.15s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(247,108) rotate(30) scale(0.66)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.06 0.9;0.94 1.12;1.02 0.95;1 1" keyTimes="0;0.25;0.5;0.75;1" dur="0.85s" begin="0.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="0.9;1;0.65;0.95;0.9" keyTimes="0;0.25;0.5;0.75;1" dur="0.85s" begin="0.4s" repeatCount="indefinite"></animate></use></g></g>
+      </g>
+
+      <rect x="0" y="14" width="250" height="108" rx="14" fill="#19130e" stroke="#FAC775" stroke-width="1.2" stroke-opacity="0.7"></rect>
+
+      <g filter="url(#fireBlur)">
+        <g transform="translate(34,19) scale(0.55)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.08 0.88;0.92 1.14;1 1" keyTimes="0;0.3;0.6;1" dur="0.7s" begin="0.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="1;0.7;1" keyTimes="0;0.5;1" dur="0.7s" begin="0.1s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(74,19) scale(0.62)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.08 0.88;0.92 1.14;1 1" keyTimes="0;0.3;0.6;1" dur="0.8s" begin="0.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="1;0.7;1" keyTimes="0;0.5;1" dur="0.8s" begin="0.25s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(120,19) scale(0.5)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.08 0.88;0.92 1.14;1 1" keyTimes="0;0.3;0.6;1" dur="0.65s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="1;0.7;1" keyTimes="0;0.5;1" dur="0.65s" begin="0s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(165,19) scale(0.6)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.08 0.88;0.92 1.14;1 1" keyTimes="0;0.3;0.6;1" dur="0.75s" begin="0.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="1;0.7;1" keyTimes="0;0.5;1" dur="0.75s" begin="0.3s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(205,19) scale(0.52)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.08 0.88;0.92 1.14;1 1" keyTimes="0;0.3;0.6;1" dur="0.7s" begin="0.15s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="1;0.7;1" keyTimes="0;0.5;1" dur="0.7s" begin="0.15s" repeatCount="indefinite"></animate></use></g></g>
+        <g transform="translate(236,19) scale(0.58)"><g><animateTransform attributeName="transform" type="scale" values="1 1;1.08 0.88;0.92 1.14;1 1" keyTimes="0;0.3;0.6;1" dur="0.85s" begin="0.35s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"></animateTransform><use href="#flame" xlink:href="#flame"><animate attributeName="opacity" values="1;0.7;1" keyTimes="0;0.5;1" dur="0.85s" begin="0.35s" repeatCount="indefinite"></animate></use></g></g>
+      </g>
+
+      <g fill="#ffce5a">
+        <circle cx="46" cy="16" r="1.6" opacity="0"><animate attributeName="cy" values="16;-16" dur="2.4s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.3 0 0.7 1"></animate><animate attributeName="cx" values="46;54" dur="2.4s" begin="0s" repeatCount="indefinite"></animate><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="2.4s" begin="0s" repeatCount="indefinite"></animate></circle>
+        <circle cx="118" cy="16" r="1.3" opacity="0"><animate attributeName="cy" values="16;-18" dur="2.8s" begin="0.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.3 0 0.7 1"></animate><animate attributeName="cx" values="118;110" dur="2.8s" begin="0.6s" repeatCount="indefinite"></animate><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="2.8s" begin="0.6s" repeatCount="indefinite"></animate></circle>
+        <circle cx="170" cy="16" r="1.5" opacity="0"><animate attributeName="cy" values="16;-15" dur="2.5s" begin="1.1s" repeatCount="indefinite" calcMode="spline" keySplines="0.3 0 0.7 1"></animate><animate attributeName="cx" values="170;178" dur="2.5s" begin="1.1s" repeatCount="indefinite"></animate><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="2.5s" begin="1.1s" repeatCount="indefinite"></animate></circle>
+        <circle cx="214" cy="16" r="1.3" opacity="0"><animate attributeName="cy" values="16;-17" dur="2.7s" begin="0.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.3 0 0.7 1"></animate><animate attributeName="cx" values="214;206" dur="2.7s" begin="0.3s" repeatCount="indefinite"></animate><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;1" dur="2.7s" begin="0.3s" repeatCount="indefinite"></animate></circle>
+      </g>
+
+      <g transform="translate(22,30) scale(1.05)" fill="url(#goldFill)"><use href="#trophy" xlink:href="#trophy"></use></g>
+      <circle cx="50" cy="36" r="1.6" fill="#FAC775"></circle>
+      <circle cx="60" cy="52" r="1.3" fill="#FAC775"></circle>
+      <text x="80" y="40" font-size="11.5" font-weight="700" letter-spacing="2.5" fill="#FAC775">WINNER</text>
+      <text x="80" y="62" font-size="12.5" font-weight="700" fill="#f8f8f2">Copilot-Powered</text>
+      <text x="80" y="78" font-size="12.5" font-weight="700" fill="#f8f8f2">Build Award</text>
+      <text x="22" y="106" font-size="10.5" fill="#8b94a3">Qualcomm &#215; Meta</text>
+      <text x="22" y="119" font-size="10.5" fill="#8b94a3">ExecuTorch Hackathon</text>
+    </g>
+  </g>
+
+  <g transform="translate(300,38)" opacity="1">
+    <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.15s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"></animate>
+    <animateTransform attributeName="transform" type="translate" values="300 56;300 38" dur="0.7s" begin="0.15s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"></animateTransform>
+    <g>
+      <rect x="0" y="14" width="250" height="108" rx="14" fill="#85B7EB" filter="url(#glowBlur)" opacity="0.16">
+        <animate attributeName="opacity" values="0.16;0.30;0.16" dur="3.2s" begin="0.85s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+      </rect>
+      <rect x="0" y="14" width="250" height="108" rx="14" fill="#11161f" stroke="#85B7EB" stroke-width="1.2" stroke-opacity="0.55"></rect>
+      <g transform="translate(22,30) scale(1.05)" fill="#85B7EB"><use href="#trophy" xlink:href="#trophy"></use></g>
+      <text x="80" y="40" font-size="11.5" font-weight="700" letter-spacing="2.5" fill="#85B7EB">1ST PLACE</text>
+      <text x="80" y="62" font-size="12.5" font-weight="700" fill="#f8f8f2">LinkedIn Spartan</text>
+      <text x="80" y="78" font-size="12.5" font-weight="700" fill="#f8f8f2">Strategy Showcase</text>
+      <text x="22" y="106" font-size="10.5" fill="#8b94a3">SJSU Showcase</text>
+      <text x="22" y="119" font-size="10.5" fill="#8b94a3">Apr 2026</text>
+    </g>
+  </g>
+
+  <g transform="translate(570,38)" opacity="1">
+    <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"></animate>
+    <animateTransform attributeName="transform" type="translate" values="570 56;570 38" dur="0.7s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"></animateTransform>
+    <g>
+      <rect x="0" y="14" width="250" height="108" rx="14" fill="#3a414e" filter="url(#glowBlur)" opacity="0.10">
+        <animate attributeName="opacity" values="0.10;0.20;0.10" dur="3.4s" begin="1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+      </rect>
+      <rect x="0" y="14" width="250" height="108" rx="14" fill="#0f141c" stroke="#3a414e" stroke-width="1.2" stroke-dasharray="6 6"></rect>
+      <g transform="translate(22,30) scale(1.05)" fill="#3a414e"><use href="#trophy" xlink:href="#trophy"></use></g>
+      <text x="80" y="40" font-size="11.5" font-weight="700" letter-spacing="2.5" fill="#5b6573">NEXT UP</text>
+      <text x="80" y="64" font-size="13" fill="#8b94a3">More to come</text>
+      <text x="22" y="112" font-size="10.5" fill="#5b6573">building &#8230;</text>
+      <circle cx="92" cy="108" r="2" fill="#5b6573">
+        <animate attributeName="opacity" values="0.3;1;0.3" keyTimes="0;0.5;1" dur="1.4s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+      </circle>
+      <circle cx="100" cy="108" r="2" fill="#5b6573">
+        <animate attributeName="opacity" values="0.3;1;0.3" keyTimes="0;0.5;1" dur="1.4s" begin="0.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+      </circle>
+      <circle cx="108" cy="108" r="2" fill="#5b6573">
+        <animate attributeName="opacity" values="0.3;1;0.3" keyTimes="0;0.5;1" dur="1.4s" begin="0.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"></animate>
+      </circle>
+    </g>
+  </g>
+
+  <line x1="0" y1="179" x2="850" y2="179" stroke="#2b313d" stroke-width="1"></line>
+</svg>
