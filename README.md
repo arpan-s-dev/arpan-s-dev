@@ -15,7 +15,7 @@
 
 ---
 
-## Hackathon Wins
+## Badges
 
 <div align="center">
 
