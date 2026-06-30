@@ -225,8 +225,8 @@ export default arpanjeet;
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
 <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/DistilBERT-FFB400?style=flat-square&logoColor=white"/>
-<img src="https://img.shields.io/badge/sentence--transformers-2C3E50?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/DistilBERT-FFB400?style=flat-square&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/sentence--transformers-2C3E50?style=flat-square&logo=huggingface&logoColor=white"/>
 <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black"/>
 <img src="https://img.shields.io/badge/Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white"/>
 <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white"/>
