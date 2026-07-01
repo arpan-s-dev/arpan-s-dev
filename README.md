@@ -45,68 +45,6 @@
 
 ---
 
-## GitHub Analytics
-
-<div align="center">
-
-<!-- MILESTONES (shields.io — reliable, no third-party hosting) -->
-<p>
-<img src="https://img.shields.io/badge/Building-Multi--Agent_Systems-bd93f9?style=for-the-badge&labelColor=1a1b27" alt="Building"/>
-<img src="https://img.shields.io/badge/Status-Catching_Up-ff79c6?style=for-the-badge&labelColor=1a1b27" alt="Status"/>
-<img src="https://img.shields.io/badge/Mode-Outrun_the_AI_Race-50fa7b?style=for-the-badge&labelColor=1a1b27" alt="Mode"/>
-<img src="https://img.shields.io/badge/Year-Junior-f1fa8c?style=for-the-badge&labelColor=1a1b27" alt="Year"/>
-<img src="https://img.shields.io/badge/Since-2022-8be9fd?style=for-the-badge&labelColor=1a1b27" alt="Since"/>
-</p>
-
-<br>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<div align="center">
-
-<h3>Arpanjeet's GitHub Stats</h3>
-
-<br>
-
-<img src="https://img.shields.io/github/followers/Arpanjeetsingh?style=for-the-badge&logo=github&label=FOLLOWERS&color=bd93f9&labelColor=1a1b27" alt="Followers"/>
-<img src="https://img.shields.io/github/stars/Arpanjeetsingh?style=for-the-badge&logo=github&label=STARS&color=ff79c6&labelColor=1a1b27&affiliations=OWNER" alt="Stars"/>
-
-<br>
-
-<img src="https://img.shields.io/badge/REPOS-20%2B-50fa7b?style=for-the-badge&logo=github&labelColor=1a1b27" alt="Repos"/>
-<img src="https://img.shields.io/badge/TOP_LANG-Python-f1fa8c?style=for-the-badge&logo=python&logoColor=f1fa8c&labelColor=1a1b27" alt="Top Lang"/>
-
-<br>
-
-<img src="https://img.shields.io/badge/MODE-BUILDING-ff79c6?style=for-the-badge&labelColor=1a1b27" alt="Mode"/>
-<img src="https://img.shields.io/badge/STATUS-OUTRUNNING-50fa7b?style=for-the-badge&labelColor=1a1b27" alt="Status"/>
-
-</div>
-
-</td>
-<td width="50%" valign="top">
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Arpanjeetsingh&theme=dracula&hide_border=true&background=0d1117&ring=bd93f9&fire=ff79c6&currStreakLabel=50fa7b&sideLabels=f8f8f2&dates=6272a4" alt="GitHub Streak" width="100%"/>
-</td>
-</tr>
-</table>
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arpanjeetsingh&layout=donut-vertical&theme=dracula&hide_border=true&bg_color=0d1117&title_color=bd93f9&text_color=f8f8f2&langs_count=8&cache_seconds=86400&v=3" alt="Top Languages" width="320"/>
-
-<br>
-
-<!-- Fallback language row — always visible even if Top Languages above fails to load -->
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,typescript,javascript,bash&theme=dark" alt="Languages"/>
-</p>
-
-</div>
-
----
-
 ## Tech Arsenal
 
 <div align="center">
@@ -114,64 +52,21 @@
 <!-- ANIMATED TECH ARSENAL BANNER (readme-banners/tech-arsenal.svg) -->
 <img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/tech-arsenal.svg" width="100%" alt="Tech arsenal"/>
 
-<br><br>
-
-<h4>Awards & Recognition</h4>
-<p>
-<img src="https://img.shields.io/badge/Winner-Copilot--Powered%20Build%20Award-8957E5?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Winner — Copilot-Powered Build Award"/>
-<img src="https://img.shields.io/badge/Qualcomm%20%C3%97%20Meta-ExecuTorch%20Hackathon-3253DC?style=for-the-badge&logo=qualcomm&logoColor=white" alt="Qualcomm × Meta ExecuTorch Hackathon"/>
-<img src="https://img.shields.io/badge/1st%20Place-LinkedIn%20Spartan%20Strategy%20Showcase-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="1st Place — LinkedIn Spartan Strategy Showcase (SJSU)"/>
-</p>
-<sub>First place · LinkedIn Campus Ambassador Program &amp; SJSU Career Center · Apr 2026</sub>
-
-<h4>Languages</h4>
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,typescript,javascript&theme=dark" alt="Languages"/>
-<br>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
-</p>
-
-<h4>AI, Agents & Machine Learning</h4>
-<p>
-<img src="https://img.shields.io/badge/Multi--Agent_Systems-bd93f9?style=for-the-badge&logoColor=white" alt="Multi-Agent"/>
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
-<img src="https://img.shields.io/badge/RAG-ff79c6?style=for-the-badge&logoColor=white" alt="RAG"/>
-<img src="https://img.shields.io/badge/LLM_Engineering-50fa7b?style=for-the-badge&logoColor=white" alt="LLM Engineering"/>
-<br>
-<img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" alt="ML Frameworks"/>
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
-</p>
-
-<h4>Mobile, Frontend & Backend</h4>
-<p>
-<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"/>
-<img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-<br>
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind&theme=dark" alt="Frontend"/>
-</p>
-
-<h4>Low-Level & Systems</h4>
-<p>
-<img src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Systems"/>
-<img src="https://img.shields.io/badge/Assembly-525252?style=for-the-badge&logoColor=white" alt="Assembly"/>
-</p>
-
-<h4>Data & Infrastructure</h4>
-<p>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,supabase&theme=dark" alt="Databases"/>
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
-</p>
-
-<h4>Workflow & Deployment</h4>
-<p>
-<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
-</p>
-
 </div>
+
+<details>
+<summary><b>Detailed stack</b></summary>
+
+| Area | Tools |
+|---|---|
+| Languages | Python, Java, TypeScript, JavaScript, SQL |
+| AI, Agents & ML | Multi-agent systems, LangGraph, LangChain, RAG, LLM engineering, TensorFlow, scikit-learn |
+| Mobile, Frontend & Backend | React Native, Expo, React, Next.js, Tailwind CSS, FastAPI, Node.js |
+| Low-Level & Systems | Linux, Assembly |
+| Data & Infrastructure | PostgreSQL, MongoDB, Redis, Supabase |
+| Workflow & Deployment | Jira, Vercel |
+
+</details>
 
 ---
 
@@ -185,6 +80,10 @@
 </div>
 
 <br>
+
+<div align="center">
+<h3>AI, Agents & On-Device Systems</h3>
+</div>
 
 <!-- PROJECT 0: Lodestar — Hackathon Winner -->
 <table>
@@ -217,6 +116,12 @@
 </td>
 </tr>
 </table>
+
+<br>
+
+<div align="center">
+<h3>Freight Automation & Document Intelligence</h3>
+</div>
 
 <!-- PROJECT 1: Freight-Doc-Matcher (v0.2) -->
 <table>
@@ -333,17 +238,58 @@
 
 ---
 
-## Contribution Pac-Man
+## GitHub Activity
 
 <div align="center">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+
+<h3>Arpanjeet's GitHub Stats</h3>
+
+<br>
+
+<img src="https://img.shields.io/github/followers/Arpanjeetsingh?style=for-the-badge&logo=github&label=FOLLOWERS&color=bd93f9&labelColor=1a1b27" alt="Followers"/>
+<img src="https://img.shields.io/github/stars/Arpanjeetsingh?style=for-the-badge&logo=github&label=STARS&color=ff79c6&labelColor=1a1b27&affiliations=OWNER" alt="Stars"/>
+
+<br>
+
+<img src="https://img.shields.io/badge/REPOS-20%2B-50fa7b?style=for-the-badge&logo=github&labelColor=1a1b27" alt="Repos"/>
+<img src="https://img.shields.io/badge/TOP_LANG-Python-f1fa8c?style=for-the-badge&logo=python&logoColor=f1fa8c&labelColor=1a1b27" alt="Top Lang"/>
+
+</div>
+
+</td>
+<td width="50%" valign="top">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Arpanjeetsingh&theme=dracula&hide_border=true&background=0d1117&ring=bd93f9&fire=ff79c6&currStreakLabel=50fa7b&sideLabels=f8f8f2&dates=6272a4" alt="GitHub Streak" width="100%"/>
+</td>
+</tr>
+</table>
+
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arpanjeetsingh&layout=donut-vertical&theme=dracula&hide_border=true&bg_color=0d1117&title_color=bd93f9&text_color=f8f8f2&langs_count=8&cache_seconds=86400&v=3" alt="Top Languages" width="320"/>
+
+<br>
+
+<!-- Fallback language row — always visible even if Top Languages above fails to load -->
+<p>
+<img src="https://skillicons.dev/icons?i=python,java,typescript,javascript,bash&theme=dark" alt="Languages"/>
+</p>
+
+<br>
+
+<h3>Contribution Pac-Man</h3>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/output/pacman-contribution-graph.svg">
   <img alt="github contribution grid pacman animation" src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/output/pacman-contribution-graph.svg" width="100%">
 </picture>
 </div>
-
-> Pac-Man animation requires a GitHub Action — see setup notes at the bottom of this file.
 
 ---
 
@@ -385,6 +331,7 @@
     Auto-tracks once the README is live — no setup.
 
  4. PROJECTS
-    Two project blocks are pre-stubbed above. Replace REPO_NAME (3 spots
-    per project) and rewrite the tagline + bullets when you're ready.
+    Featured projects are grouped by theme. Keep AI/systems work together
+    and freight/document automation together so the profile flow stays
+    intentional.
 ============================================================= -->
