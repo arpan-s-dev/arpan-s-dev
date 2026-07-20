@@ -61,7 +61,7 @@
 | Area | Tools |
 |---|---|
 | Languages | Python, Java, TypeScript, JavaScript, SQL |
-| AI, Agents & ML | Multi-agent systems, LangGraph, LangChain, RAG, LLM engineering, TensorFlow, scikit-learn |
+| AI, Agents & ML | Multi-agent systems, LangGraph, LangChain, RAG, LLM engineering, PyTorch, computer vision / semantic segmentation, ONNX (edge / in-browser), TensorFlow, scikit-learn |
 | Mobile, Frontend & Backend | React Native, Expo, React, Next.js, Tailwind CSS, FastAPI, Node.js |
 | Low-Level & Systems | Linux, Assembly |
 | Data & Infrastructure | PostgreSQL, MongoDB, Redis, Supabase |
@@ -76,7 +76,7 @@
 <div align="center">
 
 <!-- ANIMATED PROJECTS BANNER (readme-banners/projects.svg) -->
-<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/projects.svg" width="100%" alt="Featured projects — Lodestar, Freight-Doc-Matcher, POD_RC_AUTO_OCR, UniLoadBoard"/>
+<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/projects.svg" width="100%" alt="Featured projects — Lodestar, FloodLens, Freight-Doc-Matcher, POD_RC_AUTO_OCR, UniLoadBoard"/>
 
 </div>
 
@@ -112,6 +112,38 @@
 <div align="center">
 <a href="https://github.com/arpan-s-dev/QCOM"><img src="https://img.shields.io/badge/View_Repository-Lodestar-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" alt="View Repo"/></a>
 <img src="https://img.shields.io/github/stars/arpan-s-dev/QCOM?style=for-the-badge&logo=github&label=STARS&color=ff79c6&labelColor=1a1b27" alt="Stars"/>
+</div>
+
+</td>
+</tr>
+</table>
+
+<!-- PROJECT: FloodLens -->
+<table>
+<tr>
+<td>
+
+<h3><a href="https://github.com/arpan-s-dev/floodlens">FloodLens</a> — In-Browser Flood Segmentation from Satellite Imagery <sup><code>🌍 AI for Good</code></sup></h3>
+
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white"/>
+<img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+</p>
+
+> **Deep-learning flood-water detection from Sentinel-2 optical imagery. A ~0.5 MB Tiny U-Net runs entirely in the browser via ONNX + WebAssembly — no GPU server — and beats the classical NDWI heuristic ~6× (IoU 0.68). Live and interactive on Hugging Face Spaces.**
+
+- **Beat majority-class collapse** — with only ~1.8% water pixels, plain BCE collapsed to "predict no water everywhere" (IoU 0.000); a weighted BCE + soft Dice loss (`pos_weight ≈ 91`) plus a diverse 102-chip / 10-country subset drove IoU **0.000 → 0.19 → 0.68**, each step verified by re-measuring
+- **Edge-first inference** — the trained Tiny U-Net exports to ONNX and runs client-side through ONNX Runtime Web + WebAssembly; the live Space needs no signup and no GPU, downloading the ~0.5 MB model once
+- **Honest ML engineering** — reports IoU / Dice / precision / recall (not misleading accuracy under class imbalance); a lazy FastAPI adapter falls back to a heuristic so the API still serves even without the ML package installed
+
+<div align="center">
+<a href="https://github.com/arpan-s-dev/floodlens"><img src="https://img.shields.io/badge/View_Repository-FloodLens-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" alt="View Repo"/></a>
+<img src="https://img.shields.io/github/stars/arpan-s-dev/floodlens?style=for-the-badge&logo=github&label=STARS&color=ff79c6&labelColor=1a1b27" alt="Stars"/>
 </div>
 
 </td>
