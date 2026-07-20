@@ -3,11 +3,12 @@
 // my_portfolio/components/home/tech-stack.tsx + tech-logos.tsx.
 import { writeFileSync } from "node:fs"
 
-const BG = "#221a14"        // Arthur bg-base (matches the portfolio screenshot)
-const PANEL = "#2a2018"     // elevated node fill
-const GOLD = "#c9a961"      // accent
-const TEXT = "#e8dcc4"      // text-primary
-const MUTED = "#b6a279"     // text-muted
+// Palette matched to the profile README (Dracula / GitHub-dark).
+const BG = "#0d1117"        // GitHub dark base
+const PANEL = "#1a1b27"     // elevated node fill (README labelColor)
+const GOLD = "#bd93f9"      // accent (README purple) — name kept for brevity
+const TEXT = "#f8f8f2"      // Dracula foreground
+const MUTED = "#6272a4"     // Dracula comment
 
 const groups = [
   { code: "AGT", tools: [
@@ -131,8 +132,8 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width
 <stop offset="100%" stop-color="${GOLD}" stop-opacity="0"/>
 </radialGradient>
 <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
-<stop offset="0%" stop-color="#2a2018" stop-opacity="1"/>
-<stop offset="100%" stop-color="#1a1410" stop-opacity="1"/>
+<stop offset="0%" stop-color="#161b26" stop-opacity="1"/>
+<stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
 </radialGradient>
 </defs>
 <rect x="0" y="0" width="900" height="900" rx="24" fill="url(#bgGlow)"/>
