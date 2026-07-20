@@ -48,26 +48,6 @@
 
 ## Tech Arsenal
 
-<div align="center">
-
-<!-- ANIMATED TECH ARSENAL BANNER (readme-banners/tech-arsenal.svg) -->
-<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/tech-arsenal.svg" width="100%" alt="Tech arsenal"/>
-
-</div>
-
-<details>
-<summary><b>Detailed stack</b></summary>
-
-| Area | Tools |
-|---|---|
-| Languages | Python, Java, TypeScript, JavaScript, SQL |
-| AI, Agents & ML | Multi-agent systems, LangGraph, LangChain, RAG, LLM engineering, PyTorch, computer vision / semantic segmentation, ONNX (edge / in-browser), TensorFlow, scikit-learn |
-| Mobile, Frontend & Backend | React Native, Expo, React, Next.js, Tailwind CSS, FastAPI, Node.js |
-| Low-Level & Systems | Linux, Assembly |
-| Data & Infrastructure | PostgreSQL, MongoDB, Redis, Supabase |
-| Workflow & Deployment | Jira, Vercel |
-
-</details>
 
 ---
 
