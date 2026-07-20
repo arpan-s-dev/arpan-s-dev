@@ -48,6 +48,12 @@
 
 ## Tech Arsenal
 
+<div align="center">
+
+<!-- STATIC "AI ECOSYSTEM" GRAPH (readme-banners/tech-stack.svg) — from the portfolio -->
+<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/tech-stack.svg" width="620" alt="AI ecosystem — tech stack graph: AI core linked to AGT, OCR, ML, EDGE, UI, and SYS clusters"/>
+
+</div>
 
 ---
 
