@@ -105,21 +105,42 @@ groups.forEach((g, ci) => {
     const p = toolPos(angle, ti, g.tools.length)
     // hub -> tool spoke
     lines += `<line x1="${hub.x}" y1="${hub.y}" x2="${p.x}" y2="${p.y}" stroke="${color}" stroke-width="1" stroke-opacity="0.32"/>`
+    // Radiating ripple emanating from each tool node — staggered so the
+    // whole graph shimmers like a wave rather than pulsing in unison.
+    const delay = (((ci * 6 + ti) % 12) * 0.22).toFixed(2)
     tools += `<g>`
-      + `<circle cx="${p.x}" cy="${p.y}" r="${NODE_R}" fill="${BG}" stroke="${color}" stroke-width="1.6" stroke-opacity="0.92"/>`
+      + `<circle cx="${p.x}" cy="${p.y}" r="${NODE_R}" fill="none" stroke="${color}" stroke-width="1.4">`
+        + `<animate attributeName="r" values="${NODE_R};${NODE_R + 15}" dur="2.6s" begin="${delay}s" repeatCount="indefinite"/>`
+        + `<animate attributeName="stroke-opacity" values="0.55;0" dur="2.6s" begin="${delay}s" repeatCount="indefinite"/>`
+      + `</circle>`
+      + `<circle cx="${p.x}" cy="${p.y}" r="${NODE_R}" fill="${BG}" stroke="${color}" stroke-width="1.6" stroke-opacity="0.92">`
+        + `<animate attributeName="stroke-opacity" values="0.6;1;0.6" dur="2.6s" begin="${delay}s" repeatCount="indefinite"/>`
+      + `</circle>`
       + `<svg x="${r3(p.x - ICON / 2)}" y="${r3(p.y - ICON / 2)}" width="${ICON}" height="${ICON}" viewBox="0 0 24 24">${iconInner(logo, color)}</svg>`
       + `</g>`
   })
   // hub node (drawn above tool spokes)
+  const hubDelay = (ci * 0.4).toFixed(2)
   hubs += `<g>`
+    + `<circle cx="${hub.x}" cy="${hub.y}" r="${HUB_R}" fill="none" stroke="${GOLD}" stroke-width="1.5">`
+      + `<animate attributeName="r" values="${HUB_R};${HUB_R + 22}" dur="3.2s" begin="${hubDelay}s" repeatCount="indefinite"/>`
+      + `<animate attributeName="stroke-opacity" values="0.5;0" dur="3.2s" begin="${hubDelay}s" repeatCount="indefinite"/>`
+    + `</circle>`
     + `<circle cx="${hub.x}" cy="${hub.y}" r="${HUB_R + 6}" fill="none" stroke="${GOLD}" stroke-width="1" stroke-opacity="0.16"/>`
     + `<circle cx="${hub.x}" cy="${hub.y}" r="${HUB_R}" fill="${PANEL}" stroke="${GOLD}" stroke-width="1.5"/>`
     + `<text x="${hub.x}" y="${hub.y + 4.5}" text-anchor="middle" fill="${GOLD}" font-size="13" font-weight="700" letter-spacing="0.5" font-family="'JetBrains Mono',monospace">${g.code}</text>`
     + `</g>`
 })
 
+const coreRipple = (begin) =>
+  `<circle cx="${C}" cy="${C}" r="54" fill="none" stroke="${GOLD}" stroke-width="1.6">`
+  + `<animate attributeName="r" values="54;104" dur="3.6s" begin="${begin}" repeatCount="indefinite"/>`
+  + `<animate attributeName="stroke-opacity" values="0.55;0" dur="3.6s" begin="${begin}" repeatCount="indefinite"/>`
+  + `</circle>`
+
 const core =
   `<circle cx="${C}" cy="${C}" r="88" fill="url(#coreGlow)"/>`
+  + coreRipple("0s") + coreRipple("1.8s")
   + `<circle cx="${C}" cy="${C}" r="54" fill="${PANEL}" stroke="${GOLD}" stroke-width="1.6"/>`
   + `<circle cx="${C}" cy="${C}" r="64" fill="none" stroke="${GOLD}" stroke-width="1" stroke-opacity="0.35"/>`
   + `<text x="${C}" y="${C - 2}" text-anchor="middle" fill="${TEXT}" font-size="30" font-weight="700" font-family="'Cormorant Garamond',Georgia,serif">AI</text>`
