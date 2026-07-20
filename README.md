@@ -51,7 +51,7 @@
 <div align="center">
 
 <!-- STATIC "AI ECOSYSTEM" GRAPH (readme-banners/tech-stack.svg) — from the portfolio -->
-<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/tech-stack.svg" width="620" alt="AI ecosystem — tech stack graph: AI core linked to AGT, OCR, ML, EDGE, UI, and SYS clusters"/>
+<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/tech-stack.svg" width="820" alt="AI ecosystem — tech stack graph: AI core linked to AGT, OCR, ML, EDGE, UI, and SYS clusters"/>
 
 </div>
 
@@ -61,8 +61,53 @@
 
 <div align="center">
 
-<!-- ANIMATED PROJECTS BANNER (readme-banners/projects.svg) -->
-<img src="https://raw.githubusercontent.com/arpan-s-dev/arpan-s-dev/main/readme-banners/projects.svg" width="100%" alt="Featured projects — Lodestar, FloodLens, Freight-Doc-Matcher, POD_RC_AUTO_OCR, UniLoadBoard"/>
+<!-- SKILLS AGGREGATED FROM ALL FEATURED PROJECTS -->
+<sub><b>· LANGUAGES ·</b></sub>
+<br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+
+<sub><b>· AI / ML / DEEP LEARNING ·</b></sub>
+<br>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/DistilBERT-FFB400?style=flat-square&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/sentence--transformers-2C3E50?style=flat-square&logo=huggingface&logoColor=white"/>
+<img src="https://img.shields.io/badge/Anthropic_Claude-D4A27F?style=flat-square&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white"/>
+
+<sub><b>· ON-DEVICE / EDGE ·</b></sub>
+<br>
+<img src="https://img.shields.io/badge/ExecuTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Qualcomm_QNN-3253DC?style=flat-square&logo=qualcomm&logoColor=white"/>
+<img src="https://img.shields.io/badge/Qwen3-615CED?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white"/>
+<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white"/>
+
+<sub><b>· DATA / OCR / BI ·</b></sub>
+<br>
+<img src="https://img.shields.io/badge/Tesseract_OCR-000000?style=flat-square&logo=tesseract&logoColor=white"/>
+<img src="https://img.shields.io/badge/pdfplumber-2C2C2C?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyMuPDF-1F425F?style=flat-square&logoColor=white"/>
+<img src="https://img.shields.io/badge/openpyxl-217346?style=flat-square&logo=microsoftexcel&logoColor=white"/>
+<img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black"/>
+<img src="https://img.shields.io/badge/Parquet-50ABF1?style=flat-square&logo=apacheparquet&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white"/>
+
+<sub><b>· BACKEND / FRONTEND / INFRA ·</b></sub>
+<br>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat-square&logo=shadcnui&logoColor=white"/>
+<img src="https://img.shields.io/badge/Hugging_Face_Spaces-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/GitHub_Copilot-8957E5?style=flat-square&logo=githubcopilot&logoColor=white"/>
 
 </div>
 
